@@ -20,7 +20,7 @@ def main():
     exec(open('idna/package_data.py').read(), package_data)
 
     arguments = {
-        'name': 'idna',
+        'name': 'python3-idna',
         'packages': ['idna'],
         'version': package_data['__version__'],
         'description': 'Internationalized Domain Names in Applications (IDNA)',
